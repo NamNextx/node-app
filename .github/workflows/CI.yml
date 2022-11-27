@@ -23,7 +23,7 @@ jobs:
       with:
         context: .
         push: true
-        tags: namnextx/${{ env.IMAGE_NAME }}:${{ github.run_number }}
+        tags: namphuong/${{ env.IMAGE_NAME }}:${{ github.run_number }}
 
     - name: Repository Dispatch
       uses: peter-evans/repository-dispatch@v1
